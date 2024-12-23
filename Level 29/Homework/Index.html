@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goa registration</title>
+</head>
+<body>
+    <form action="./index2.html" method="get">
+        <!--ინფორმაცია-->
+         
+        <label for="fullname">enter your fullname</label> 
+        <input id="fullname" name="fullname" type="text" placeholder="enter your fullname" required>
+            <br>
+       <label for="email">enter your email</label> 
+            <input id="email" name="email" type="email" placeholder="enter your email" required> 
+            <br>
+       <label for="password">enter your password</label> 
+        <input id="password" name="password" type="password" placeholder="enter your password" required>
+            <br>
+            <!--გენდერი-->
+            <input value="Male" type="radio" name="gender" required>
+                <label for="gender">Male</label>
+            <input value="Female" type="radio" name="gender" required>
+                <label for="gender">Female</label>
+            <br>
+            <!--სიჩქარის არჩევა-->
+            <label for="speed">choose your speed:</label>
+        <select name="speed" id="speed" required>
+            <option value="speed 1">speed 1</option>
+            <option value="speed 2">speed 2</option>
+            <option value="speed 3">speed 3</option>
+            <option value="speed 4">speed 4</option>
+        
+        </select>
+
+            <button type="submit">submit</button>
+        
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!-- შექმენით სარეგისტრაციო ფორმა. მომხარებელს შემოატანინეთ ემაილი, პაროლი და სახელი. თითოეულ input-ს უნდა ჰქონდეს type, name, id, placeholder, required ატრიბუტები. გამოიყენეთ <label> თეგი და მასში for ატრიბუტი.
+
+გამოიყენეთ <br> თეგი.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form> <!--შევიყვანოთ ინფორმაცია-->
+        <label for="email">enter your email</label>
+            <input id="email" type="email" name="email" placeholder="example@mail.com" required/>
+            <br/>
+        
+        <label for="password">enter your password</label>
+            <input id="password" type="password" name="password" placeholder="boom123" required/>
+            <br/>
+
+        <label for="name">enter your fullname</label>
+            <input id="name" name="Fullname" type="text" placeholder="John Doe"required>
+            <br/>
+        
+        <input value="Male" type="radio" name="gender">
+            <label for="gender">Male</label>
+        <input value="Female" type="radio" name="gender">
+            <label for="gender">Female</label>
+        <br/>
+
+            <!--შევიყვანოთ რომელ ქალაქში ცხოვრობ-->
+            <select name="City">
+            <option value="TB"selected>Tbilisi</option>
+            <option value="GO">Gori</option>
+            <option value="QU">Qutaisi</option>
+            <option value="ZE">Zestaponi</option>
+            <option value="OC">Ochamchire</option>
+
+
+        </select>
+        
+        <button>submit</button>
+        
+    
+    
+    </form>
+
+
+</body>
+
+</html>

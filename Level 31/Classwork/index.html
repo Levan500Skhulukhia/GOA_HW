@@ -1,0 +1,32 @@
+<!--<video>: ეს არის მთავარი ტეგი, რომელიც იტევს ვიდეოს.
+width და height: განაპირობებენ ვიდეოს ზომას.
+controls: ეს ატრიბუტი ამატებს ვიდეოს კონტროლებს (პაუზის, გაჩერების, სიხშირის რეგულირების ღილაკებს).
+<source>: ამ ტეგით მითითებულია ვიდეო ფაილი. შესაძლებელია სხვადასხვა ვიდეო ფორმატის დამატება (მაგალითად, .mp4, .ogg), რომ ვიდეოს გახსნის შესაძლებლობა ჰქონდეს სხვადასხვა ბრაუზერებს.
+.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>  <!-- video თაგი გვინდა რომ შევოვიტანოთ ვიდეო საიტზე-->
+    <video controls> 
+        <source src="./Samargalos Gaumarjos ( სამარგალოს გაუმარჯოს ).mp4" type="video/mp4">
+        <source src="./Samargalos Gaumarjos ( სამარგალოს გაუმარჯოს ) copy.ogg" type="video/ogg">
+        <source src="./Samargalos Gaumarjos ( სამარგალოს გაუმარჯოს ) copy.mkv" type="video/mkv">
+        couldnt load the video
+    </video>
+<!--autoplay ავტომატურად რთავს აუდიოს, muted ხმას უთიშავს სანამ მომხმარებელი მაგას არ ჩართავს, loop დასრულების თანავე უშვებს აუდიოს ახლიდან ახალ წრეზე.-->
+    <audio controls autoplay muted loop>
+        <source src="./Samargalos Gaumarjos ( სამარგალოს გაუმარჯოს ) copy.mp3" type="audio/mp3">
+        <source src="./Samargalos Gaumarjos ( სამარგალოს გაუმარჯოს ) copy.WAV" type="audio/WAV">
+        <source src="./Samargalos Gaumarjos ( სამარგალოს გაუმარჯოს ) copy.ogg" type="audio/ogg">
+        couldnt load the audio
+
+
+    </audio>
+</body>
+</html>
