@@ -1,0 +1,116 @@
+<!--inline CSS პირდაპირ HTML ელემენტის style ატრიბუტში წერია.
+პლიუსები:
+მარტივი და სწრაფი გამოსაყენებლად მცირე კოდის შემთხვევაში.
+სასარგებლოა კონკრეტული ელემენტის დროებითი სტილიზაციისთვის.
+მინუსები:
+რთულია დიდი პროექტების მართვა.
+ვერ ხდება სტილების ხელახალი გამოყენება.
+HTML და CSS არ არიან განყოფილებულები, რაც ართულებს კოდის გაგებას.
+
+ internal CSS განთავსებულია <style> ტეგში, რომელიც ჩასმულია <head> ნაწილში.
+პლიუსები:
+HTML და CSS ერთ ფაილშია, რაც სასარგებლოა მცირე პროექტებისთვის.
+არ არის საჭირო გარე ფაილების ჩატვირთვა.
+მინუსები:
+დიდი პროექტისთვის არაეფექტურია.
+რთულია ხელახალი გამოყენება და კოდის ორგანიზაცია.
+
+ external CSS ცალკე ფაილში ინახება და HTML-ში <link> ტეგის გამოყენებით იტვირთება.
+პლიუსები:
+საუკეთესო არჩევანია დიდი და რთული პროექტებისთვის.
+სტილების ხელახალი გამოყენების შესაძლებლობა.
+HTML და CSS ცალ-ცალკე ინახება, რაც ორგანიზაციას ამარტივებს.
+მინუსები:
+საჭიროებს დამატებით ფაილების ჩატვირთვას, რაც მცირე დროში შეიძლება შეანელოს გვერდის ჩატვირთვა.
+
+კუთვნილება (Property)
+რას აკეთებს: განსაზღვრავს იმ მახასიათებელს, რომლის შეცვლაც გსურთ (მაგ., ფერი, ზომა, შრიფტი).
+მაგალითი: color, font-size, background
+კუთვნილების მნიშვნელობა (Value)
+რას აკეთებს: განსაზღვრავს კუთვნილების კონკრეტულ მნიშვნელობას.
+მაგალითი: red, 24px, bold
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WrestleWiki</title>
+    <style>
+        
+        #main_header {
+            background-color: blue; 
+            color: gold;
+            text-align: center;
+        }
+
+        *{
+            color: blue;
+        }
+        
+        #button {
+            background-color: rgb(172, 214, 19);
+        }
+      
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./Olympicgames.png" alt="olympicgameslogo" width="300px">
+        <h1 id="main_header">Top 3 Freestyle wrestlers in the world</h1>
+
+    </header>
+    <main>
+        <ul>
+            <img src="./Hassan.png" alt="Hassan" width="350px">
+            <li><h2>3.Hassan Yazdani</h2></li>
+            <li><strong>Country:</strong> Iran</li>
+            <li><strong>Weight Class:</strong>86KG</li>
+            <br>
+            <li><strong>Achievments:</strong></li>
+            <li>Olympic Champion (2016)</li>
+            <li>4-times World Champion</li>
+            <li>Famous for his agility, technical precision, and powerful attacks.</li>
+        </ul>
+        <br>
+        <ul>
+            <img src="./Jordan.png" alt="Jordan" width="350px">
+            <li><h2>2.Jordan Burroughs</h2></li>
+            <li><strong>Country:</strong> USA</li>
+            <li><strong>Weight Class:</strong>74KG</li>
+            <br>
+            <li><strong>Achievments:</strong></li>
+            <li>Olympic Champion (2012)</li>
+            <li>7-times World Champion</li>
+            <li>Renowned for his speed, explosive double-leg takedown, and consistent dominance.
+            </li>
+        </ul>
+        <br>
+
+        <ul>
+            <img src="./Abdularshid.png" alt="Abdularshid" width="350px">
+            <li><h2>1. Abdularshid Sadulaev</h2></li>
+            <li><strong>Country:</strong> Russia</li>
+            <li><strong>Weight Class:</strong>97KG</li>
+            <br>
+            <li><strong>Achievments:</strong></li>
+            <li>2-times Olympic Champion (2016,2020)</li>
+            <li>5-times World Champion</li>
+            <li>Known as "The Russian Tank" for his unstoppable strength and technique.</li>
+        </ul>
+    
+    
+    </main>
+
+    <footer>
+        <nav>
+            <button id="button"><a href="./index.html">go up</a></button>
+        </nav>
+    </footer>
+
+    
+    
+</body>
+</html>
