@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&display=swap');
+
+p {
+    font-weight: 900;
+    font-family: "Agu Display", serif;
+}
+
+
+body {
+    background-color: darkseagreen;
+}
+
+
+a:hover {
+    color: yellow;
+    text-decoration-line: line-through;
+    text-decoration-style: dotted;
+    text-decoration-color: black;
+}
+
+a:active {
+    color: black;
+    text-decoration-color: yellow;
+}

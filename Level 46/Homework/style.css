@@ -1,0 +1,38 @@
+body {
+background-color: darkslategray;
+}
+
+
+#p1 {
+
+    text-decoration-line: underline ;
+    text-decoration-color: blueviolet;
+}
+
+#p2 {
+    text-decoration-line: line-through;
+    text-decoration-style:dashed ;
+    text-decoration-color: chartreuse;
+}
+
+#p3{
+    text-decoration-line: overline;
+    text-decoration-style: dotted;
+    text-decoration-color: tomato;
+}
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+
+b {
+    display: block; 
+    text-align: center; 
+}
+
+
+/* <b> ტეგი, როგორც ინლაინის ელემენტი, არ იწვევს ახალი ხაზის გამოჩენას და არ იკავებს მშობელ კონტეინერის სიგანეს. შესაბამისად, text-align: center; უბრალოდ არ მოქმედებს მასზე, რადგან მხოლოდ ბლოკური ელემენტები შეიძლება განლაგდნენ ცენტრში.*/
