@@ -1,0 +1,27 @@
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:link{
+    background-color:rgb(255, 0, 0);
+}
+
+a:visited{
+    text-decoration: none;
+    color: purple;
+    
+}
+
+
+a:hover {
+    color: green;
+    text-decoration:underline black;
+
+}
+
+a:active{
+    color: rgb(222, 222, 37);
+    text-decoration: line-through black;
+}
+
