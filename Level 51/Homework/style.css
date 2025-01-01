@@ -1,0 +1,45 @@
+ol{
+    list-style-position:inside ;
+    text-align: center;
+    
+    list-style-type: upper-roman;
+    color: darkorange;
+    background-color: black;
+}
+
+
+ul {
+    list-style-position: inside;
+    text-align: center;
+}
+
+li:hover {
+    color: red; 
+}
+
+
+ul li:nth-child(3):hover {
+    background-color: darkviolet; 
+    color: white; 
+}
+
+
+
+table{
+    border: 1px solid black;
+    border-collapse:collapse;
+}
+
+ td{
+    border: 1px dotted black;
+}
+th{
+    border: 1px dotted gold;
+    background-color: black;
+    color: aliceblue;
+}
+
+tr:nth-child(odd){
+    background-color: aquamarine;
+}
+

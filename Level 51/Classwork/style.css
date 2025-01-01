@@ -1,0 +1,41 @@
+ul{
+   list-style-position:inside;
+   
+   
+   text-align: center;
+   color: blue;
+    
+}
+
+
+ol{
+    list-style-position:inside;
+    
+    
+    text-align: right;
+    color: red;
+     
+
+}
+
+
+table{
+    border: 2px solid blue;
+    color: azure;
+}
+
+th{
+    background-color: blue;
+}
+
+th,td{
+    border: 2px solid orange;
+}
+
+tr:nth-child(even){
+    background-color: green;
+}
+
+tr:nth-child(odd){
+    background-color: black;
+}
