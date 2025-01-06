@@ -1,0 +1,18 @@
+.parent {
+    width: 500px;
+    height: 500px;
+    background-color: burlywood; /* მშობლის ფონის ფერი */
+    display: flex; /* Flexbox გააქტიურება */
+    flex-direction: column; /* შიგთავსი ვერტიკალურად განლაგდება */
+    justify-content: flex-end; /* შვილები ვერტიკალურად ბოლოში */
+    align-items: center; /* შვილები ჰორიზონტალურად შუაში */
+    border: 2px solid black; /* საზღვარი მშობლისთვის */
+}
+
+.child {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue; /* შვილის ფონის ფერი */
+    border: 1px solid black; /* საზღვარი შვილისთვის */
+    margin: 5px 0; /* პატარა დაშორება შვილებს შორის */
+}
