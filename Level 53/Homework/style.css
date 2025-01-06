@@ -1,0 +1,28 @@
+form{
+    height: 450px;
+    width: 450px;
+    background-color: green;
+    text-align: center;
+    padding: 15px;
+    margin-left: 700px;
+    font-size: large;
+}
+
+input{
+    outline: none;
+    border-radius: 20px;
+    width: 280px;
+    padding-left: 5px;
+}
+
+button{
+    border-radius: 20px;
+    width: 180px;
+    color: green;
+    background-color: brown;
+}
+
+button:hover{
+    background-color: green;
+    color: brown
+}

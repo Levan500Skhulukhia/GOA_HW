@@ -1,0 +1,45 @@
+main{
+    background-color: gray;
+    width: 1000px;
+    height: 1000px;
+
+    
+    
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+section{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+
+
+section:last-child { 
+    align-items: center; 
+}
+
+div:nth-child(even){
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: darkgoldenrod;
+}
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+}
+
+p,h1{
+    padding: 5px;
+    text-align: center;
+}
