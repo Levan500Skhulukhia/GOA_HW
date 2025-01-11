@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "karla";
+
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    background-color:  hsl(218, 17%, 78%);
+    
+
+}
+
+div {
+    width: 300px;
+    height: 220px;
+   
+  
+    padding: 30px 30px 30px 30px;
+   
+    border-radius: 5px;
+    
+}
+
+#join {
+    background-color: white;
+    width: 662px;
+    height: 170px;
+    gap: 100px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#div1 {
+    background-color:  hsl(179, 58%, 39%);
+    color: white;
+
+
+
+}
+
+#div2 {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+    
+
+}
+#div2 p{
+    padding-top: 20px;
+    color: hsl(218, 17%, 78%);
+}
+
+
+#join h3{
+    color:  hsl(179, 62%, 43%);
+    
+}
+
+#join p{
+    padding-top: 20px;
+    
+}
+
+#jointext{
+    color: hsl(218, 17%, 78%);
+}
+
+#yellow{
+    color:  hsl(71, 73%, 54%);
+    
+}
+
+#price{
+    display: flex;
+    border: none;
+    background-color: none;
+    width: 150px;
+    height: 20px;
+    gap: 10px;
+    color:  hsl(218, 17%, 78%);
+    padding-left: 0;
+}
+#price p{
+    font-size: xx-large;
+    color: white;
+    font-weight: 600;
+}
+
+#container{
+    width: 220px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    height: 30px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: 2px solid hsl(71, 73%, 54%);
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: hsl(71, 73%, 54%);
+    transition:0,3;
+}
