@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Agu+Display&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    font-family: "Karla";
+    background: linear-gradient(to bottom, white 50%,  rgb(249, 183, 0) 50%); 
+    height: 100vh;
+}
+
+main {
+   
+    background-color: aliceblue;
+
+    width: 900px;
+    height: 720px;
+}
+
+
+
+
+/* ზემოთა მხარე */
+#line {
+
+    border-top: 7px solid rgb(249, 183, 0);
+    width: 50px;
+
+}
+
+#top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+
+}
+
+#top h5 {
+    padding-top: 15px;
+    color: rgb(249, 183, 0);
+    font-size: small;
+}
+
+#top p {
+    padding-left: 120px;
+    padding-right: 120px;
+    color: rgb(165, 165, 166);
+}
+
+/* დაბლითა მხარე */
+
+
+#down {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+
+#down p{
+    color: rgb(137, 137, 140);
+    font-size:small;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+img{
+     width: 80px;
+     border-radius: 100%;
+}
+
+#down div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.circle{
+    border-radius: 100%;
+    background-color: rgb(249, 183, 0);
+}
+
+.circle img{
+    width: 40px;
+}
+
+
+.job{
+    padding-bottom: 40px;
+}
