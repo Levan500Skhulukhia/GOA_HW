@@ -1,0 +1,93 @@
+body {
+    width: 100vh;
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.work_div {
+    width: 480px;
+    height: 500px;
+    background-color: white;
+    border-radius: 22px;
+    
+    overflow: hidden;
+
+
+    display: flex;
+
+
+
+
+}
+
+img {
+    width: 250px;
+    height: 500px;
+
+    
+}
+
+.attribution {
+    width: 100px;
+}
+
+#paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+button {
+    width: 180px;
+    height: 40px;
+
+
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+
+    border-radius: 8px;
+
+    margin-left: 15px;
+
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(52, 103, 81);
+}
+
+
+#perfume{
+    justify-self: left;
+    padding-left: 5px;
+    padding-bottom: 35px;
+
+    
+    color: hsl(228, 12%, 48%);
+
+}
+
+h1{
+    align-self: center;
+   padding-top: -200px;
+}
+
+.text{
+    color: hsl(228, 12%, 48%);
+    padding-left: 10px;
+}
+
+#new_price{
+    color:hsl(158, 36%, 37%) ;
+
+}
+
+#oldprice{
+    color:  hsl(228, 12%, 48%) ;
+    text-decoration: line-through;
+}
