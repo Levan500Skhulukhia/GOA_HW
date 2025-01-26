@@ -1,0 +1,66 @@
+/* position:
+
+static: ელემენტი ნაგულისხმევ პოზიციაშია, გადაადგილება შეუძლებელია.
+relative: ელემენტი რჩება თავის საწყის პოზიციაში, მაგრამ გადაადგილება შესაძლებელია top, right, bottom, left გამოყენებით.
+absolute: ელემენტი პოზიციონირდება უახლოეს პოზიციონირებულ მშობელთან, დოკუმენტის ნაკადიდან ამოღებულია. */
+
+
+/* top, right, bottom, left:
+
+განსაზღვრავს, რამდენით უნდა გადაადგილდეს ელემენტი მშობლის ან საწყისი პოზიციიდან. */
+
+
+
+
+
+body {
+
+    background-color: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main {
+
+    background-color: cadetblue;
+    width: 600px;
+    height: 600px;
+
+
+    margin-top: 50px;
+    display: flex;
+    
+    position: relative;
+    flex-wrap: wrap;
+    
+
+    
+}
+
+div {
+    background-color: indigo;
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+#P {
+    background-color: peru;
+    width: 150px;
+    height: 150px;
+    position:absolute;
+    right: 600px;
+    bottom: 300px;
+    
+}
+
+
+button{
+    width: 150px;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
