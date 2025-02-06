@@ -1,0 +1,52 @@
+main{
+    min-height: 100vh;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+
+div{
+    width: 400px;
+    height: 400px;
+    background-color: crimson;
+    
+}
+
+
+img{
+    width: 60px;
+    
+}
+
+
+header{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
+
+
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+
+section{
+    display: flex;
+    align-items: center;
+}
+
+
+button{
+    width: 80px;
+    height: 30px;
+    
+}
