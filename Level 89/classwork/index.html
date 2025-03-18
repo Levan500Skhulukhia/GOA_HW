@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+
+    <script>
+        //დავალება 1
+        const check = (name, age) =>{
+            if (age >= 18){
+                return name  + " "+ "you can enter the building";
+
+            }
+
+            else{
+                return "you cannot enter the building";
+            }
+        }
+
+     
+        const userName = prompt("Ente your name:");
+        const userAge = parseInt(prompt("Enter your age:"), 10);
+        
+        alert(check(userName, userAge));
+
+
+
+        // დავალება 2
+        const sum = (num1, num2) =>{
+            return num1 + num2;
+        }
+
+        // დავალება 3
+        const positive = (num) =>{
+            if (num > 0){
+                return true;
+            }
+            else{
+                return false;
+            }
+
+        }
+
+
+        // დავალება 4
+        const index = (text)=>{
+            return text[0];
+
+        }
+
+        // დავალება 5
+        const double = (number) =>{
+            return number * 2;
+        }
+
+        // დავალება 6
+        const greet = (user_name)=>{
+            return "hello" + user_name;
+        }
+
+    </script>
+</body>
+</html>

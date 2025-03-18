@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- let გამოიყენება ცვლადების გამოცხადებისთვის, რომელთა მნიშვნელობა შეიძლება მომავალში შეიცვალოს.-->
+    <!-- const გამოიყენება ცვლადების გამოცხადებისთვის, რომელთა მნიშვნელობა არ უნდა შეიცვალოს. -->
+
+
+    <!-- კომენტარებით ახსენით რატომ გამოიტანს ეს error-ს:
+    let num = 5;
+    let num = 10;
+    -->
+
+    <!-- იმიტომ გამოიტანს ერორს რომ letით გამოცხადებული ცვლადის ხელმეორედ letით გამოცხადება შეუძლებალია -->
+
+    <script>
+        if (score >= 90 && score <= 100) {
+            console.log("შენი შეფასება: A");
+        }
+        else if (score >= 80 && score <= 89) {
+            console.log("შენი შეფასება: B");
+        }
+        else if (score >= 70 && score <= 79) {
+            console.log("შენი შეფასება: C");
+        }
+        else if (score >= 60 && score <= 69) {
+            console.log("შენი შეფასება: D");
+        }
+        else {
+            console.log("შენი შეფასება: F");
+        }
+    </script>
+
+</body>
+
+</html>

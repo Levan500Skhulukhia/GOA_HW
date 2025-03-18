@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- scope არის ჯავასკრიპტში ცვლადებისა და ფუნქციების გამოყოფილი სივრცე რომელიც განსაზღვრავს ცვლადებზე3და ფუნქციებზე 
+ რომელ სივრცეში შეგვიძლია წვდომა  -->
+<!-- ჯავასკრიპტში არსებოსბ ორი scope ტიპი :global scope და local scope -->
+<!-- global scope არისა როცა ცვლადი ხელმისაწვდომია ფუნქციის ბლოკის გარეთაც 
+   local scope არის როცა ცვლადი მარტო ფუნქციის ბლოკის შიგნითაა ხელმისაწვდომი -->
+
+
+<!-- hoisting ნიშნავს, რომ ცვლადები და ფუნქციები მოძრაობენ თავიანთი ადგილიდან ზემოთ, -->
+
+
+
+<script>
+    // glbal scope 
+    let name = "levanchik";
+
+    function myFunction() {
+        console.log(name);
+    }
+
+    myFunction();
+    console.log(name);
+
+    // local scope
+    function mysurname() {
+        let surname = "skhulukhia"; 
+        console.log(surname); 
+    }
+
+    mysurname();
+
+    console.log(surname);
+</script>
+</body>
+</html>

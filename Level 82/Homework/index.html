@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--ჩაშენებული ობიექტები  წინასწარ არსებობს JavaScript-ში 
+    და გაძლევენ საშუალებას მარტივად ვიმუშაოთ სხვადასხვა ტიპის მონაცემებთან. -->
+    <!-- ჩაშენებული ობიექტებია- String;	Number; Boolean; Array -->
+
+    <!-- stack-ი და heap-ი - არის მეხსიერებები ჯავასქრიპტში მათ შორის განსხვავება ისაა რომ heap-არის დიდი და ნელი ხოლო 
+    stack- არის პატარა და სწრაფი  -->
+    <!-- stack-პლიუსი ისაა რომ არის სწრაფი და მარტივი  ხოილო მინუსი ისაა რომ მცირე მეხსიერება აქვს და არ ინახება რთული ობიექტები -->
+
+     <!-- heap-ის პლიუსი ის არის რომ დიდი მეხსიერება აქვს და რთული მონაცემების შენახვა შეიძლება ხოლო მინუსი ისაა რომ 
+     ნელია და ასევე თუ ობიექტი არ წაიშლება მისი მეხსიერება ივსება  -->
+
+
+     <!-- const me = {
+     name: "Nika",
+     age: 20
+    }
+
+    const you = me;
+    you.age = 25;
+    console.log(me.age);
+    რატომ შეიცვალა me ობიექტი? -->
+
+    <!-- იმიტომ შეიცვალა რომ you გავუტოლეთ me შესაბამისად you.age რომ გავუტოლეთ 25 შეიცვლებოდა me ობიექტიც-->
+
+    <script>
+        let name = prompt("enter your name: ")
+        let surname = prompt("enter your surname :");
+        let age = prompt("ener your age :");
+
+        let me = {
+            name:name,
+            surname:surname,
+            age:age,
+        };
+        console.log(me);
+        me.name="saba";
+        console.log(me);
+
+    </script>
+
+    
+</body>
+</html>
